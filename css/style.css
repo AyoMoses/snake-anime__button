@@ -15,7 +15,11 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  transition: all .3s linear;
   overflow: hidden; }
+  a:hover {
+    background: linear-gradient(to right, #1670f0, #1670e1);
+    color: white; }
   a:before {
     content: '';
     position: absolute;
